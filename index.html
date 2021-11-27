@@ -28,17 +28,18 @@
             <!-- nav -->
             <nav class="nav">
                 <div class="nav__div">
-                    <input class="nav__input" type="text" placeholder="Search for a country">
+                    <input id="search" class="nav__input" type="text" placeholder="Search for a country">
                     <i class="fas nav__icon fa-search"></i>
                 </div>
                 <div class="nav__select" id="navSelect">
-                    <span class="nav__span">Filter by Region</span>
+                    <span class="nav__span" id="navRegion">Filter by Region</span>
                     <i class="fas nav__arrow fa-chevron-down"></i>
                     <ul class="nav__ul">
+                        <li class="nav__li nav__li-0 select">Filter by Region</li>
                         <li class="nav__li">Africa</li>
                         <li class="nav__li">America</li>
                         <li class="nav__li">Asia</li>
-                        <li class="nav__li">Europa</li>
+                        <li class="nav__li">Europe</li>
                         <li class="nav__li">Oceania</li>
                     </ul>
                 </div>
